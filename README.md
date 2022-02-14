@@ -3,7 +3,7 @@
 Quickly install with the following command:
 
 ```pwsh
-irm https://raw.githubusercontent.com/springcomp/powershell_profile.ps1/master/Microsoft.PowerShell_profile.ps1 -OutFile $profile
+irm https://raw.githubusercontent.com/jrottmann/powershell_profile.ps1/master/Microsoft.PowerShell_profile.ps1 -OutFile $profile
 ```
 
 Then open a PowerShell prompt or reload your profile.
@@ -11,7 +11,7 @@ Then open a PowerShell prompt or reload your profile.
 **Note**: Starting from version 1.0.7945, all functions from the main profile script have been moved to the [Pwsh-Profile](https://www.powershellgallery.com/packages?q=Pwsh-Profile) PowerShell module. A warning will instruct you to install this module if not already done, using the following command:
 
 ```pwsh
-Install-Module -Name Pwsh-Profile -Repository PSGallery -Scope CurrentUser -Force
+Install-Module -Name Pwsh-Profile -Scope CurrentUser -Force
 ```
 
 **Notice**: If you want to clone this repository and have you own versions of the default profiles, please set the `$Env:PWSH_PROFILES_REMOTE_REPOSITORY` environment variable to point to the root path of the raw scripts in your repository. Please, see the documentation for the CmdLets available below for more details.
