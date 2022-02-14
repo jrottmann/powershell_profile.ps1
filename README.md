@@ -79,4 +79,4 @@ Starting from version 1.0.7945, all functions from the main profile script have 
 |`Load-Profile`|Loads a named profile. See `Microsof.PowerShell_profiles-profile.ps1`.|
 |`Update-Profile`|Replaces the specified local profile by the content from the corresponding remote profile script. Supports a `-all` flag to update all profiles in one fell swoop.|
 
-To customize the location of the remote Powershell Profiles repository, you can set the `$Env:PWSH_PROFILES_REMOTE_REPOSITORY` environment variable to the root path of raw scripts files in your repository. If the variable is not set, the default value is the string `https://raw.githubusercontent.com/springcomp/powershell_profile.ps1/master/`.
+To customize the location of the remote Powershell Profiles repository, you can set the `$Env:PWSH_PROFILES_REMOTE_REPOSITORY` environment variable to the root path of raw scripts files in your repository. If the variable is not set, the default value is the string `https://raw.githubusercontent.com/jrottmann/powershell_profile.ps1/master/`.

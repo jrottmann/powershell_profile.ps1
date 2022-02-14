@@ -1,6 +1,6 @@
 Function Update-PoshTheme {
 
-  $address = "https://raw.githubusercontent.com/springcomp/config-files/master/.poshthemes/oh-my-posh.json"
+  $address = "https://raw.githubusercontent.com/jrottmann/powershell_profile.ps1/master/oh-my-posh.json"
   $ROOT="~/.poshthemes/"
 
   New-Item -Path $ROOT -ItemType Directory -EA SilentlyContinue | Out-Null

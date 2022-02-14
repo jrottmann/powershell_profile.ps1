@@ -69,7 +69,7 @@
 
     PrivateData = @{
         PSData = @{
-            ProjectUri = 'https://github.com/springcomp/powershell_profile.ps1'
+            ProjectUri = 'https://github.com/jrottmann/powershell_profile.ps1'
             RequireLicenseAcceptance = $false
         }
     }

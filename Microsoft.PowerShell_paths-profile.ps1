@@ -3,7 +3,6 @@
 ## Setup PATH environment variable
 
 $_paths = `
-    "C:\Portable Apps", `
-    "C:\Projects\springcomp\clip\src\clip\bin\Release"
+    "C:\Portable Apps"
 
 $_paths | Add-DirectoryToPath -Prepend
